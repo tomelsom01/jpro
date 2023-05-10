@@ -3,45 +3,74 @@
     <h1>Books</h1>
   </div>
   <div>
-    <div>
-      <%= image_tag("theatre_outside_london.jpg", class: "img_size") %>
-      <p>Theatre Outside London</p>
-      <p>Macmillian, 1971</p>
-    </div>
+    <%# <%= link_to theatreoutsidelondon_path, do %>
+      <div>
+        <%= image_tag("theatre_outside_london.jpg", class: "img_size") %>
+        <p>Theatre Outside London</p>
+        <p>Macmillan, 1971</p>
+        <%= link_to "theatre", theatreoutsidelondon_path %>
+      </div>
+    <%# <% end %>
     <div>
       <%= image_tag("erotic_theatre.jpg", class: "img_size") %>
       <p>Erotic Theatre</p>
       <p>Secker, 1972</p>
+      <%= link_to "erotictheatre", erotictheatre_path %>
     </div>
     <div>
       <%= image_tag("post_war_british_theatre.jpg", class: "img_size") %>
       <p>Post-War British Theatre</p>
       <p>Routledge, 1976, 1980 and re-issued 2014</p>
+      <%= link_to "postwar", postwarbritishtheatre_path %>
+
     </div>
     <div>
       <%= image_tag("the_history_of_the_national_theatre.jpg", class: "img_size") %>
       <p>The History of the The National Theatre</p>
       <p>Cape, 1978</p>
+      <%= link_to "history", thehistoryofthenationaltheatre_path %>
     </div>
     <div>
       <%= image_tag("cold_war_theatre.jpg", class: "img_size") %>
       <p>Cold War Theatre</p>
       <p>Routledge, 1992, and re-issued 2014</p>
+      <%= link_to "coldwar", coldwartheatre_path %>
     </div>
     <div>
       <%= image_tag("is_shakespeare_still_our_comtemporary.jpg", class: "img_size") %>
       <p>Is Shakespeare Still Our Contempoary</p>
       <p>Routledge, 1989</p>
+      <%= link_to "shakespeare", isshakespearestillourcontemporary_path %>
     </div>
     <div>
       <%= image_tag("missing_the_point.jpg", class: "img_size") %>
       <p>Missing the Point</p>
       <p>The Lutterworth Press, 2007</p>
+       <%= link_to "missingpoint", missingthepoint_path %>
     </div>
     <div>
       <%= image_tag("state_of_paralysis.jpg", class: "img_size") %>
       <p>State of Paralysis</p>
       <p>The Lutterworth Press, 2019</p>
+      <%= link_to "state", stateofparalysis_path %>
+    </div>
+    <div>
+      <%= image_tag("big_dada_cover.jpg", class: "img_size") %>
+      <p>Big Dada - and the Paradiseville Experience</p>
+      <p>Unpublished, 2019</p>
+      <%= link_to "big", bigdada_path %>
+    </div>
+     <div>
+      <%= image_tag("sliding_scales_Cover.jpg", class: "img_size") %>
+      <p>Sliding Scales - How to live Relatively</p>
+      <p>Why are we here, 2023</p>
+      <%= link_to "sliding", slidingscales_path %>
+    </div>
+     <div>
+      <%= image_tag("world_without_worship_cover.jpg", class: "img_size") %>
+      <p>WWW - World Without Worship</p>
+      <p>Unpublished, 2010</p>
+      <%= link_to "WWW", worldwithoutworship_path %>
     </div>
   </div>
 </div>

@@ -11,9 +11,16 @@
 .plays_image_s{
   width: 25vw;
   height: 25vh;
+  object-fit: contain;
 }
 
 .plays_image_m{
   width: 50vw;
   height: 50vh;
+  object-fit: contain;
+}
+
+.img_size_l{
+  width: 15vw;
+  height: 25vh;
 }

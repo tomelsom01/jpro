@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/about', to: 'pages#about'
   get '/books', to: 'books#index'
   get '/plays', to: 'plays#index'
+  get '/journalism', to: 'journalism#index'
   get '/theatreoutsidelondon', to: 'theatreoutsidelondon#index'
   get '/coldwartheatre', to: 'coldwartheatre#index'
   get '/erotictheatre', to: 'erotictheatre#index'
@@ -28,4 +29,9 @@ Rails.application.routes.draw do
   get '/secondtimeround', to: 'secondtimeround#index'
   get '/oldboy', to: 'oldboy#index'
   get '/worldwithin', to: 'worldwithin#index'
+  get '/thelondonmag', to: 'thelondonmag#index'
+  get '/thelistener', to: 'thelistener#index'
+  get '/worldandi', to: 'worldandi#index'
+  get '/contreview', to: 'contreview#index'
+  get '/nfixabode', to: 'nfixabode#index'
 end

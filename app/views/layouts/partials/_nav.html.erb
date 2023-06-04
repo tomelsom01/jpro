@@ -4,11 +4,13 @@
     <li class="nav-item p-2"><%= link_to "books", books_path %></li>
     <li class="nav-item p-2"><%= link_to "plays", plays_path %></li>
     <li class="nav-item p-2"><%= link_to "about", about_path %></li>
-    <li class="nav-item p-2" id="menu-icon">more
-      <ul class="nav-menu">
-        <li>Random Contemplation</li>
-        <li><%= link_to "journalism", journalism_path %></li>
-      </ul>
-    </li>
   </ul>
+  <div class="dropdown">
+      <p class="nav-item p-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >more
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li class="dropdown-item">Random Contemplation</li>
+          <li class="dropdown-item"><%= link_to "journalism", journalism_path %></li>
+        </ul>
+      </p>
+    </div>
 </nav>

@@ -1,15 +1,25 @@
-<h1>Theatre Outside London</h1>
+<%= turbo_frame_tag "modal" do %>
 
-<%= image_tag("theatre_outside_london.jpg", class: "img_size_m") %>
+  <div class="container pt-2" style="width: 30rem;">
 
-<p>
-Between 1939 and 1958, no new theatres were built in Britain and commercial touring theatres declined from 130 to about 30. In the next ten years, 40 new repertory theatres were built, with the help of public subsidies, with resident companies and local writers. ‘The lively and healthy state in which British theatre finds itself today,’ wrote Laurence Olivier, the first director of the National Theatre, ‘is due almost entirely to the activity of the repertory movement.’
+    <%# <%= image_tag("theatre_outside_london_02.jpg", class: "card-img-top") %>
 
-The Arts Council of Great Britain (ACGB) was brought into being as part of the drive to build a Welfare State from a war-torn country. The reps reflected the pride and aspirations of towns that felt (and were) out-of-touch with the star-studded West End.
+    <%# <h1 class="card-titile d-flex justify-content-center">Theatre Outside London</h1> %>
 
-Topics: Change and Prophecies; Merit Marks; Drought and irrigation; The Arts Council; Theatre in Education; Living Dangerously; Buildings, Areas, and Actors; An Alphabet of Reps.
+    <p>
+    Between 1939 and 1958, no new theatres were built in Britain and commercial touring theatres declined from 130 to about 30. In the next ten years, 40 new repertory theatres were built, with the help of public subsidies, with resident companies and local writers. ‘The lively and healthy state in which British theatre finds itself today,’ wrote Laurence Olivier, the first director of the National Theatre, ‘is due almost entirely to the activity of the repertory movement.’
 
-‘An excellent survey of British reps.’ Richard Findlater. Encounter. 1971. (→further press.)
+    The Arts Council of Great Britain (ACGB) was brought into being as part of the drive to build a Welfare State from a war-torn country. The reps reflected the pride and aspirations of towns that felt (and were) out-of-touch with the star-studded West End.
 
-→Post War British Theatre, Journalism, The Well-Intentioned Builder, Kingston Welcomes Korea, Change and Choice (Liberal Party discussion paper).
-</p>
+    Topics: Change and Prophecies; Merit Marks; Drought and irrigation; The Arts Council; Theatre in Education; Living Dangerously; Buildings, Areas, and Actors; An Alphabet of Reps.
+
+    ‘An excellent survey of British reps.’ Richard Findlater. Encounter. 1971. (→further press.)
+
+    →Post War British Theatre, Journalism, The Well-Intentioned Builder, Kingston Welcomes Korea, Change and Choice (Liberal Party discussion paper).
+    </p>
+    <%= link_to "Cancel", "#", data: {
+      controller: "modals",
+      action: "modals#close"
+    }, class: "cancel-button" %>
+  </div>
+<% end %>

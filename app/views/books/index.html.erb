@@ -1,81 +1,87 @@
-<div class="d-flex align-items-center booksbackground mb-3">
+<div class="d-flex align-items-center booksbackground">
   <div class="container">
     <h1>Books</h1>
     <h2>Discover a world where history politics and theatre combine</h2>
   </div>
 </div>
-<div class="container">
-  <div class="cardsbooks">
-    <%# <%= link_to theatreoutsidelondon_path, do %>
-      <div>
+<div class="half-and-half pt-3">
+  <div class="container">
 
-        <%= image_tag("theatre_outside_london.jpg", class: "img_size_l") %>
-        <p>Theatre Outside London</p>
-        <p>Macmillan, 1971</p>
-        <%= link_to "theatre", theatreoutsidelondon_path %>
+    <div class="cardsbooks ">
+      <%# <%= link_to theatreoutsidelondon_path, do %>
+
+        <div class ="card">
+
+          <%= image_tag("theatre_outside_london_02.jpg", class: "img_size_l card-img-top") %>
+          <p class="card-title d-flex justify-content-center">Theatre Outside London</p>
+          <p class="card-text  d-flex justify-content-center">Macmillan, 1971</p>
+           <%= link_to "theatre", theatreoutsidelondon_path, data: {turbo_frame: "modal"} %>
+
+        </div>
+
+      <%# <% end %>
+      <div class ="card">
+        <%= image_tag("erotic_theatre.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Erotic Theatre</p>
+        <p class="card-text  d-flex justify-content-center">Secker, 1972</p>
+        <%= link_to "erotictheatre", erotictheatre_path %>
       </div>
-    <%# <% end %>
-    <div>
-      <%= image_tag("erotic_theatre.jpg", class: "img_size_l") %>
-      <p>Erotic Theatre</p>
-      <p>Secker, 1972</p>
-      <%= link_to "erotictheatre", erotictheatre_path %>
-    </div>
-    <div>
-      <%= image_tag("post_war_british_theatre.jpg", class: "img_size_l") %>
-      <p>Post-War British Theatre</p>
-      <p>Routledge, 1976, 1980 and re-issued 2014</p>
-      <%= link_to "postwar", postwarbritishtheatre_path %>
+      <div class ="card">
+        <%= image_tag("post_war_british_theatre_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Post-War British Theatre</p>
+        <p class="card-text  d-flex justify-content-center">Routledge, 1976, 1980 and re-issued 2014</p>
+        <%= link_to "postwar", postwarbritishtheatre_path %>
 
-    </div>
-    <div>
-      <%= image_tag("the_history_of_the_national_theatre.jpg", class: "img_size_l") %>
-      <p>The History of the The National Theatre</p>
-      <p>Cape, 1978</p>
-      <%= link_to "history", thehistoryofthenationaltheatre_path %>
-    </div>
-    <div>
-      <%= image_tag("cold_war_theatre.jpg", class: "img_size_l") %>
-      <p>Cold War Theatre</p>
-      <p>Routledge, 1992, and re-issued 2014</p>
-      <%= link_to "coldwar", coldwartheatre_path %>
-    </div>
-    <div>
-      <%= image_tag("is_shakespeare_still_our_comtemporary.jpg", class: "img_size_l") %>
-      <p>Is Shakespeare Still Our Contempoary</p>
-      <p>Routledge, 1989</p>
-      <%= link_to "shakespeare", isshakespearestillourcontemporary_path %>
-    </div>
-    <div>
-      <%= image_tag("missing_the_point.jpg", class: "img_size_l") %>
-      <p>Missing the Point</p>
-      <p>The Lutterworth Press, 2007</p>
-      <%= link_to "missingpoint", missingthepoint_path %>
-    </div>
-    <div>
-      <%= image_tag("state_of_paralysis.jpg", class: "img_size_l") %>
-      <p>State of Paralysis</p>
-      <p>The Lutterworth Press, 2019</p>
-      <%= link_to "state", stateofparalysis_path %>
-    </div>
-    <div>
-      <%= image_tag("big_dada_cover.jpg", class: "img_size_l") %>
-      <p>Big Dada - and the Paradiseville Experience</p>
-      <p>Available Online, 2019</p>
-      <%= link_to "big", bigdada_path %>
-    </div>
-    <div>
-      <%= image_tag("sliding_scales_Cover.jpg", class: "img_size_l") %>
-      <p>Sliding Scales</p>
-      <p>A relative history of now</p>
-      <p>Available Online, 2023</p>
-      <%= link_to "sliding", slidingscales_path %>
-    </div>
-    <div>
-      <%= image_tag("world_without_worship_cover.jpg", class: "img_size_l") %>
-      <p>WWW - World Without Worship</p>
-      <p>Available Online, 2010</p>
-      <%= link_to "WWW", worldwithoutworship_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("the_history_of_the_national_theatre_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">The History of the The National Theatre</p>
+        <p class="card-text  d-flex justify-content-center">Cape, 1978</p>
+        <%= link_to "history", thehistoryofthenationaltheatre_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("cold_war_theatre_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Cold War Theatre</p>
+        <p class="card-text  d-flex justify-content-center">Routledge, 1992, and re-issued 2014</p>
+        <%= link_to "coldwar", coldwartheatre_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("is_shakespeare_still_our_comtemporary_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Is Shakespeare Still Our Contempoary</p>
+        <p class="card-text  d-flex justify-content-center">Routledge, 1989</p>
+        <%= link_to "shakespeare", isshakespearestillourcontemporary_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("missing_the_point_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Missing the Point</p>
+        <p class="card-text  d-flex justify-content-center">The Lutterworth Press, 2007</p>
+        <%= link_to "missingpoint", missingthepoint_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("state_of_paralysis_01.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">State of Paralysis</p>
+        <p class="card-text  d-flex justify-content-center">The Lutterworth Press, 2019</p>
+        <%= link_to "state", stateofparalysis_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("big_dada_cover.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Big Dada - and the Paradiseville Experience</p>
+        <p class="card-text  d-flex justify-content-center">Available Online, 2019</p>
+        <%= link_to "big", bigdada_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("sliding_scales_Cover.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">Sliding Scales</p>
+        <p class="card-text  d-flex justify-content-center">A relative history of now</p>
+        <p class="card-text  d-flex justify-content-center">Available Online, 2023</p>
+        <%= link_to "sliding", slidingscales_path %>
+      </div>
+      <div class ="card">
+        <%= image_tag("world_without_worship_cover.jpg", class: "img_size_l card-img-top") %>
+        <p class="card-title d-flex justify-content-center">WWW - World Without Worship</p>
+        <p class="card-text  d-flex justify-content-center">Available Online, 2010</p>
+        <%= link_to "WWW", worldwithoutworship_path %>
+      </div>
     </div>
   </div>
 </div>

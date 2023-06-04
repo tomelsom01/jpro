@@ -1,5 +1,6 @@
-<h1>Journalism</h1>
-<h2>can be found on app/views/journalism/undex.html.erb</h2>
+<div class="container">
+  <h1>Journalism</h1>
+</div>
 
 <div class="journalismcardslayout container">
   <div class="card" style="width: 18rem;">
@@ -22,23 +23,23 @@
     <%= image_tag("NFA2.jpg", class: "card-img-top") %>
     <div class="card-body">
       <h5 class="card-title">No Fixed Abode</h5>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
-
-  <div class="card" style="width: 18rem;">
-    <%= image_tag("hulkiOkan.jpg", class: "card-img-top") %>
-    <div class="card-body">
-      <h5 class="card-title">CONTEMPORARY REVIEW – 1978-90</h5>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <%= link_to "go somewhere", nfixabode_path, class: "btn btn-primary" %>
     </div>
   </div>
 
   <div class="card" style="width: 18rem;">
     <%= image_tag("CR_1.jpg", class: "card-img-top") %>
     <div class="card-body">
+      <h5 class="card-title">CONTEMPORARY REVIEW – 1978-90</h5>
+      <%= link_to "go somewhere", contreview_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <%= image_tag("W&I1.jpg", class: "card-img-top") %>
+    <div class="card-body">
       <h5 class="card-title">THE LISTENER – 1972-82</h5>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <%= link_to "go somewhere", thelistener_path, class: "btn btn-primary" %>
     </div>
   </div>
 </div>

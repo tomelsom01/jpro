@@ -14,3 +14,26 @@
   height: 70vh;
   width: 100%;
 }
+
+.playsbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('acorngermination.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 70vh;
+  width: 100%;
+}
+
+.half-and-half{
+  background:linear-gradient(to top, #FFFFFF 0%, #FFFFFF 37%, #dfdfdf 37%, #e1e0e1 100%);
+  margin: 0 auto;
+}
+
+.aboutBanner{
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,157,189,1) 100%);
+}
+
+.aboutColor{
+  background-color: #daad86;
+}

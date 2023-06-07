@@ -1,12 +1,12 @@
 .cards{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
 
 .cards2{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
 }
 
@@ -60,4 +60,29 @@
 }
 .cancel-button:hover {
   background-color: #2640fe;
+}
+
+.wid50{
+  width: 50vh;
+}
+
+.cardsdis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tealign{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.setposition{
+  position: relative;
+}
+
+@media (max-width: 769px){
+  .cardsdis{
+    grid-template-columns: 1fr;
+  }
 }

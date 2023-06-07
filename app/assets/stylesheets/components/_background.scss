@@ -37,3 +37,23 @@
 .aboutColor{
   background-color: #daad86;
 }
+
+.plantingtreeimg{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('young-tree-shoot.jpg');
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: bottom -100px right 5px;
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-shadow: #FFFFFF;
+}
+
+.curtainsbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('curtains.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}

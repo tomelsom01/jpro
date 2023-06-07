@@ -1,95 +1,104 @@
 
   <div class="d-flex align-items-center playsbackground mb-3">
   <div class="container">
-    <h1>Plays</h1>
+    <h1>Welcome to the ultimate theatrical experience</h1>
     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="cards">
-      <div>
-        <div class="card">
-          <%= image_tag("peacemaker01.jpg", class: "plays_image_m") %>
-          <h4>Peacemaker</h4>
-          <h5>1956</h5>
-          <h6>ADC Theatre, Cambridge</h6>
-          <%= link_to "peace", peacemaker_path %>
+<div class="curtainsbackground">
+  <div class="container">
+    <div class="row">
+      <div class="cards ">
+        <div class="card text-center">
+          <%= image_tag("peacemaker02.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h4 class="card-title">Peacemaker</h4>
+            <h5 class="card-text">1956</h5>
+            <h6 class="card-text">ADC Theatre, Cambridge</h6>
+            <%= link_to "peace", peacemaker_path %>
+          </div>
         </div>
-      </div>
-      <div>
-        <div class="card mb-5">
-          <%= image_tag("vlahDumitru.jpg", class: "plays_image_s") %>
-          <h5>Maui</h5>
-          <h6>libretto for the opera by Barry Anderson, 1958</h6>
-          <h6>New Zealand</h6>
-          <%= link_to "maui", maui_path %>
+        <div class="card text-center">
+          <%= image_tag("vlahDumitru.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Maui</h5>
+            <h6 class="card-text">libretto for the opera by Barry Anderson, 1958</h6>
+            <h6 class="card-text">New Zealand</h6>
+            <%= link_to "maui", maui_path %>
+          </div>
         </div>
-        <div class="card">
-          <%= image_tag("onemorebull1.jpg", class: "plays_image_s") %>
-          <h5>One More Bull</h5>
-          <h6>1966</h6>
-          <p>Cockpit Theatre, London</p>
-          <%= link_to "one", onemorebull_path %>
+        <div class="card text-center">
+          <%= image_tag("onemorebull1.jpg", class: "card-img-top") %>
+          <div class="card-body">
+              <h5 class="card-title">One More Bull</h5>
+              <h6 class="card-text">1966</h6>
+              <p class="card-text">Cockpit Theatre, London</p>
+              <%= link_to "one", onemorebull_path %>
+            </div>
+          </div>
+        <div class="card text-center">
+          <%= image_tag("thewellintentionbuilder.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">The Well-intentioned Builder</h5>
+            <h6 class="card-text">Cockpit Theatre, London, 1966 and National Theatre of Craiova, Romania, 2004</h6>
+            <%= link_to "well-intentioned", thewellintentionedbuilder_path %>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="cards2">
-      <div>
-        <div class="card mb-5">
-          <%= image_tag("thewellintentionbuilder.jpg", class: "plays_image_s") %>
-          <h5>The Well-intentioned Builder</h5>
-          <h6>Cockpit Theatre, London, 1966 and National Theatre of Craiova, Romania, 2004</h6>
-          <%= link_to "well-intentioned", thewellintentionedbuilder_path %>
+        <div class="card text-center">
+          <%= image_tag("melonedies01.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Malone Dies</h5>
+            <h6 class="card-text">1984</h6>
+            <p>Edinburgh International Festival</p>
+            <%= link_to "Malone", malonedies_path %>
+          </div>
         </div>
-        <div class="card">
-          <%= image_tag("melonedies01.jpg", class: "plays_image_s") %>
-          <h5>Malone Dies</h5>
-          <h6>1984</h6>
-          <p>Edinburgh International Festival</p>
-          <%= link_to "Malone", malonedies_path %>
-        </div>
-      </div>
-        <div>
-          <div class="card">
-            <%= image_tag("heddagabler01.jpg", class: "plays_image_m") %>
-            <h4>Hedda Gabler</h4>
-            <h5>2006</h5>
+        <div class="card text-center">
+          <%= image_tag("heddagabler02.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h4 class="card-title">Hedda Gabler</h4>
+            <h5 class="card-text">2006</h5>
             <h6>Edinburgh Fringe Festival</h6>
             <%= link_to "Hedda", heddagabler_path %>
           </div>
         </div>
-    </div>
-    <div class="cards3">
-    <div class="card">
-          <%= image_tag("themanofthefutureisdead01.jpg", class: "plays_image_s") %>
-          <h5>The Man of the future is Dead</h5>
-          <h6>Edinburgh fringe festival, 2006 and Bulandra Theatre Bucharest 2007</h6>
-          <%= link_to "TheMan", themanofthefutureisdead_path %>
-
+        <div class="card text-center">
+          <%= image_tag("themanofthefutureisdead01.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">The Man of the future is Dead</h5>
+            <h6 class="card-text">Edinburgh fringe festival, 2006 and Bulandra Theatre Bucharest 2007</h6>
+            <%= link_to "TheMan", themanofthefutureisdead_path %>
+          </div>
         </div>
-        <div class="card">
-          <%= image_tag("STR1.jpg", class: "plays_image_s") %>
-          <h5>Second Time Round</h5>
-          <h6>2011</h6>
-          <p>International Festival of Musical Theatre, Bucharest, 2007</p>
-          <%= link_to "second", secondtimeround_path %>
+        <div class="card text-center">
+          <%= image_tag("STR1.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Second Time Round</h5>
+            <h6 class="card-text">2011</h6>
+            <p class="card-text">International Festival of Musical Theatre, Bucharest, 2007</p>
+            <%= link_to "second", secondtimeround_path %>
+          </div>
         </div>
-        <div class="card">
-          <%= image_tag("Old_Boy.jpg", class: "plays_image_s") %>
-          <h5>Old Boy</h5>
-          <h6>2009</h6>
-          <p>Tristan Bates Theatre, London</p>
+        <div class="card text-center">
+          <%= image_tag("Old_Boy.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Old Boy</h5>
+            <h6 class="card-text">2009</h6>
+            <p class="card-text">Tristan Bates Theatre, London</p>
+          </div>
           <%= link_to "oldboy", oldboy_path %>
         </div>
-        <div class="card">
-          <%= image_tag("worldwithin1.jpg", class: "plays_image_s") %>
-          <h5>World Within</h5>
-          <h6>2012</h6>
-          <p>Untreatru, Bucharest, Romania</p>
-          <%= link_to "world", worldwithin_path %>
+        <div class="card text-center">
+          <%= image_tag("worldwithin1.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">World Within</h5>
+            <h6 class="card-text">2012</h6>
+            <p class="card-text">Untreatru, Bucharest, Romania</p>
+            <%= link_to "world", worldwithin_path %>
+          </div>
         </div>
+      </div>
     </div>
   </div>
 </div>

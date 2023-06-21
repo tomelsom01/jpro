@@ -1,6 +1,7 @@
 .cards{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: -1px;
 }
 
 .cards2{
@@ -84,4 +85,18 @@
   .cardsdis{
     grid-template-columns: 1fr;
   }
+}
+
+.cardbackground2{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+}
+
+.text_white{
+  color: white;
 }

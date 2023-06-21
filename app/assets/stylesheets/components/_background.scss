@@ -85,3 +85,21 @@
 .deepskyblue{
   background-color: rgba(0,191,255,0.5);
 }
+
+.journalbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree-branch-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20vh;
+  width: 100vw;
+}
+
+.aboutbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}

@@ -1,5 +1,22 @@
-<h1>no fixed abode</h1>
+<div class="container">
+  <div class="container">
+    <h1><strong>No Fixed Abode</strong></h1>
+  </div>
+  <div class="d-flex justify-content-around align-items-center">
 
-<p>As an independent writer, John has contributed to a wide number of newspapers and magazines, world-wide, including (in the UK): The Observer (guest critic, 1972, and magazine feature writer), Sunday Telegraph, Mail on Sunday, Prospect, New Democrat (arts editor), Gambit, Plays and Players, Yorkshire Byelines, and The New European. Elsewhere, he has contributed articles for: The San Diego Union, Moscow News, Jordan Times, New European Review (on-line), Assaig de Teatro and Critical Stages (IATC/AICT online magazine).</p>
+    <%= image_tag("NFA2.jpg", class: "img_test") %>
+    <div>
+      <button class="btn btn-outline-dark">Want to read?</button>
+      <%= link_to "More about the author?", about_path, class:"btn btn-outline-success" %>
+    </div>
+  </div>
+  <div class="pt-3">
+    <p>As an independent writer, John has contributed to a wide number of newspapers and magazines, world-wide, including (in the UK): The Observer (guest critic, 1972, and magazine feature writer), Sunday Telegraph, Mail on Sunday, Prospect, New Democrat (arts editor), Gambit, Plays and Players, Yorkshire Bylines, and The New European. Elsewhere, he has contributed articles for: The San Diego Union, Moscow News, Jordan Times, New European Review (on-line), Assaig de Teatro and Critical Stages (IATC/AICT online magazine).</p>
+  </div>
+</div>
 
-<%= image_tag("NFA2.jpg") %>
+<div class="card container" style="width: 18rem;">
+   <%= image_tag("political-system1.jpg", class: "img-card-top img_size_l") %>
+  <h5 class="card-title">Clearing out the attic: why our political system needs a complete re-think</h5>
+  <p class="card-text">The Catch-22 of electoral reform under the British system is that you must win a parliamentary majority by first-past-the-post before you can introduce proportional representation (PR). By some quirk of nature, this is rarely the priority of a party that has just got into power. Reforming zeal evaporates. They hum and haw. There may be a case for a fairer system, they concede, but there are more urgent matters in their in-trays, and their government should lead from the front and not be distracted by constitutional niceties …</p>
+</div>

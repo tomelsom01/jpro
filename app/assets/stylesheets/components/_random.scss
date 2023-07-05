@@ -1,0 +1,45 @@
+.vid_row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.vid_col{
+  flex-basis: 50%;
+  min-width: 250px;
+}
+
+.feature_image{
+  width: 83%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.small_img_row{
+  display: flex;
+  background: #efefef;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 85%;
+}
+
+.small_img{
+  position: relative;
+}
+
+.video_player{
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+video:focus{
+  outline: none;
+}

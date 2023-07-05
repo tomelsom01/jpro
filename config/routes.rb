@@ -34,4 +34,5 @@ Rails.application.routes.draw do
   get '/worldandi', to: 'worldandi#index'
   get '/contreview', to: 'contreview#index'
   get '/nfixabode', to: 'nfixabode#index'
+  get '/random', to: 'randomcontemplation#index'
 end

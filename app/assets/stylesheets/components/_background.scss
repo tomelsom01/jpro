@@ -24,6 +24,16 @@
   width: 100%;
 }
 
+.randombackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('KWK_Stem.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 70vh;
+  width: 100%;
+}
+
+
 .half-and-half{
   background:linear-gradient(to top, #FFFFFF 0%, #FFFFFF 37%, #dfdfdf 37%, #e1e0e1 100%);
   margin: 0 auto;

@@ -33,6 +33,14 @@
   width: 100%;
 }
 
+.randomround{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('spinningagain.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
 
 .half-and-half{
   background:linear-gradient(to top, #FFFFFF 0%, #FFFFFF 37%, #dfdfdf 37%, #e1e0e1 100%);
@@ -106,6 +114,26 @@
 }
 
 .aboutbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.contactformbackground{
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('forestbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.fillerbackground{
   background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree_roots.jpg');
   background-size: cover;
   background-repeat: no-repeat;

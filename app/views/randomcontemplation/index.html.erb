@@ -1,43 +1,315 @@
-<h1>Make it informal and fun/sadness of sally/ horror of hiroshima</h1>
 
-<h1>*"family tree"****** of the credit of a movie!!</h1>
+  <div class="d-flex align-items-center randombackground mb-3">
+    <div class="container">
+      <h1>Random Contemplation</h1>
+      <h3>…the life-changing unexpected…</h3>
+    </div>
+  </div>
 
-<h1>lets have some fun</h1>
+  <video controls class="videoPlayer" style="display: none;" width="100%" >
+      <source src="<%= asset_path("/videos/SPRING.mp4") %>" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
+  <video controls class="videoPlayer" style="display: none;" width="100%" >
+      <source src="<%= asset_path("/videos/Autumn_2.mp4") %>" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
+  <video controls class="videoPlayer" style="display: none;" width="100%" >
+      <source src="<%= asset_path("/videos/Winter_3_.mp4") %>" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
 
-<div class="d-flex align-items-center randombackground mb-3">
   <div class="container">
-    <h1>Random Contemplation</h1>
-    <h3>Embrass the randomness</h3>
+    <h2>The Seasons</h2><h3>poetry on the seasons(must change!!)</h3>
+    <div class="row">
+      <div class="season_cards">
+        <div class="profile-card-2">
+         <%= image_tag("spring.jpg", class: "img-thumbnail") %>
+          <div class="profile-name">
+            <i class="fa-solid fa-play play-center playButton" data-video-index="0"></i>
+          </div>
+          <div class="profile-name">Spring </div>
+
+        </div>
+        <div class="profile-card-2">
+         <%= image_tag("summerstormpot.jpg", class: "img-thumbnail") %>
+          <div class="profile-name"></div>
+          <div class="profile-name">A Storm in Summer</div>
+          <div class="profile-username">@johndoesurname</div>
+        </div>
+        <div class="profile-card-2">
+         <%= image_tag("autumn.jpg", class: "img-thumbnail") %>
+         <div class="profile-name"><i class="fa-solid fa-play play-center" data-video-index="3"></i></div>
+          <div class="profile-name">Autumn</div>
+          <div class="profile-username">@johndoesurname</div>
+        </div>
+        <div class="profile-card-2">
+         <%= image_tag("winter.jpg", class: "img-thumbnail") %>
+         <div class="profile-name"><i class="fa-solid fa-play play-center" data-video-index="4"></i></div>
+          <div class="profile-name">Winter</div>
+          <div class="profile-username">@johndoesurname</div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="container">
+    <h2>Posters(must change!!)</h2>
+    <div class="row">
+      <div class="season_cards">
+        <div class="card">
+          <%= image_tag("gdad_politics_poster.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">Pravda (Moscow) – March 1985 </h5>
+          </div>
+        </div>
+        <div class="card">
+          <%= image_tag("gdad_rome_poster.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">IATC Poster from Rome Festival – November 1985 </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>In March 1985, the General Secretary of the Soviet Communist Party, Konstantin Chernenko, died, and was succeeded by a younger man, Mikhail Gorbachev, with a mission to bring the Cold War to an end. As an independent journalist and an IATC Vice-President, John was attending a conference in Moscow at the time of Chernenko’s funeral. He was drawn into discussions about how the cultural relations between the East and the West could be improved. In the same year, at a festival in Rome, John was elected IATC world president, with the support of the US and Soviet delegations. The common aim was to promote international friendship through theatre festivals and academic conferences, some described in John’s articles for the US magazine, The World & I, and his broadcasts for the BBC.</p>
+  </div>
+
+  <div class="container">
+    <h2>Festivals Galore!!(must change!!)</h2>
+    <h3>A photo collection of The World & I essays, which illustrate the range of the festivals in which the IATC under his leadership was involved. (Tom: can we make the images less formal and touristic? I’d like more of a tumble of pictures, featuring the article titles, and very active…)</h3>
+    <div class="cardsbooks">
+
+        <div class="card card-block">
+          <%= image_tag("craiovaIntern.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">International Shakespeare festival in Craiova</h5>
+          <p class="card-text">Romania (June, 2004)</p>
+        </div>
+
+
+        <div class="card card-block">
+          <%= image_tag("balkan2004", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Theatre in the Balkans</h5>
+          <p class="card-text">february - 2004</p>
+        </div>
+
+
+        <div class="card card-block">
+          <%= image_tag("ukrainefes.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">a music festival in ukraine</h5>
+          <p class="card-text">July - 2001</p>
+        </div>
+
+
+        <div class="card card-block">
+          <%= image_tag("theatrehongkong.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">A theatre in Hong Kong</h5>
+        </div>
+
+
+        <div class="card card-block">
+          <%= image_tag("festpeters.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">A festival and conference in St Petersburg</h5>
+          <p class="card-text">February 2000</p>
+        </div>
+
+       <div class="card card-block">
+          <%= image_tag("festadeusz.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">A festival and celebration of the Polish director, Tadeusz Kantor, in Krakow</h5>
+          <p class="card-text">July 2001</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("avignonfes.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Festival in avignon. France woth Peter Brook and The Mahabharata</h5>
+          <p class="card-text">November 1995</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("intercairo.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Cairo International festival of Experimental Theatre</h5>
+          <p class="card-text">John wa a chair at the preselection committee</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("budafes1994.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">The Flowering of the Hungarian Theatre</h5>
+          <p class="card-text">Festival in Budapest, Hungary - May 1994</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("bertheatre.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Theatre festival in Berlin</h5>
+          <p class="card-text">After the fall of the berlin wall - december 1990</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("bulgariasofiatheatre.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Theatre festival</h5>
+          <p class="card-text">Bulgaria - March 1990</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("czechrepublic26.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Theatre festival in Czech Republic</h5>
+          <p class="card-text">January 1990</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("edinfest.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Edinburgh Festival</h5>
+          <p class="card-text">December 1989</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("moscowTanganka.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Moscow's Taganka Theatre</h5>
+          <p class="card-text">July 1989</p>
+        </div>
+
+         <div class="card card-block">
+          <%= image_tag("theatrevienna.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Theatre in Vienna</h5>
+          <p class="card-text">April 1989</p>
+        </div>
+
+    </div>
+    <p>The spirit of Glasnost (openness) did not last for long. The national rivalries, suppressed by the Cold War, once more asserted their strength. In Putin’s Russia, there was a call to restore Holy Russia, its medieval empire. In the US, President Trump swore to ‘Make America Great Again’. In Britain, a referendum resulted in a decision to leave the European Union. One MP, Jo Cox, spoke out against Brexit and was murdered in her constituency.</p>
+  </div>
+
+  <div class="container">
+    <h2>The rise of Nationalism</h2>
+    <div class="card">
+          <%= image_tag("joCox.jpg", class: "card-img-top") %>
+          <div class="card-body">
+            <h5 class="card-title">	A Song for Jo Cox: Music by David Sutton Anderson, words by John Elsom, spoken by Valentina Zaharia, with Sally Mays (pianist), Simon Desorgher (flautist) and the Kingston choir, recorded at All Saints Church, Kingston. (Video by George Venus). </h5>
+          </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <h2>Kingston welcomes Korea</h2>
+    <div class="row">
+      <div class="cards">
+        <div class="card card-block">
+          <%= image_tag("KWK_Breakdance.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Time to break(must change)</h5>
+
+        </div>
+        <div class="card card-block">
+          <%= image_tag("Z_KWK_In Nam_soon_3.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Korea in kingston(must change)</h5>
+
+        </div>
+        <div class="card card-block">
+          <%= image_tag("Z_KWK_Ongals_2.jpg", class: "card-img-top") %>
+          <h5 class="card-title  mt-3 mb-3">Comedy peps(must change)</h5>
+
+        </div>
+
+      </div>
+    </div>
+    <p> In the Royal Borough of Kingston upon Thames, John produced and directed a festival for the Korean community with the support of the Korean Cultural Centre, the Rose Theatre, All Saints Church and RBK Borough Council. It celebrated the happy and peaceful relationship between two vastly different national cultures, a model for harmony elsewhere. This friendship began, however, in the dark days before the end of the Second World War, when the Allies destroyed the Japanese town of Hiroshima, whose anniversary was also remembered.</p>
+  </div>
+
+  <div class="container">
+    <h2>Hiroshima</h2>
+    <div class="card">
+      <%= image_tag("thetombofhiroshima.jpg", class: "card-img-top") %>
+      <div class="card-body">
+          <h5 class="card-title">	Hiroshima 1945. John’s poem. </h5>
+      </div>
+    </div>
+
+  </div>
+
+
+<div class="container">
+  <h2>Sally Mays</h2>
+  <p>In April 2018, Sally Mays, the Australian pianist, died from lung cancer. She was John’s wife and partner in a marriage that lasted over sixty-three years. In December 2019, her friends gathered for a memorial concert, held at All Saints Church, Kingston. </p>
+  <br>
+  <p>	Three songs from Sally’s memorial concert. Words by John Elsom, music by David Sutton Anderson, sung by Lauren Lodge-Campbell. (Video by George Venus)</p>
+  <p>A: The Apple of My Eye</p>
+  <p>We kept it cool. We kept it dry,
+We did not want our friends to pry,
+For I was only seventeen, and she,
+The apple of my eye.
+</p>
+<p>We made no plans, and if we met,
+We’d touch, and gently touch, not grope,
+For she came from another world,
+And I was full of love and hope.
+</p>
+<p>Through shafts of light, to muffled drums,
+We swore we’d leave it all to chance.
+Let’s face the future, as it comes!
+And so began our lifelong dance.
+</p>
+<p>We had no doubt, we had no fear,
+We did not play it by the rule,
+For she was on her grand career,
+And I stood firm (though still at school).
+</p>
+<p>Living alone in a house,
+Waiting for no-one to come,
+Where are they now?
+Kisses that fastened my heart and stopped my mouth
+Dumb.
+</p>
+<p>B: Home Delivery</p>
+<p>We paced the floor, my son and I,
+The midwife came and crossed the hall,
+And closed the door. ‘What’s wrong with Mum?’
+‘Nothing,’ I said, ‘Nothing at all’.
+</p>
+<p>Great clouds of smog rolled up the Thames,
+A thick and grey primordial soup.
+We drew the blinds against the dark.
+Nothing could let our spirit droop.
+</p>
+<p>‘Can I go in?’ ‘Not yet, not yet,
+Let’s stick around and say our prayers.
+There’s nothing much we men can do.
+Let’s leave the girls to their affairs.’
+</p>
+<p>The house was softly drenched in mist.
+The silence even soaked the earth.
+Awestruck we stood, restless to hear
+The first uncertainties of birth.
+</p>
+<p>C: Silence</p>
+<p>The skills of eighty years
+Have left her hands.
+</p>
+<p>The words that spoke her mind
+Escape her lips.
+</p>
+<p>The house that sang of love
+Has lost its voice.
+</p>
+<p>Silence, my dear friends, is a deep hole.</p>
 </div>
 
+<div class="container">
+  <h3>Your never to old to start over again...</h3>
+</div>
 
-<div class="container ">
-  <div class="vid_row">
-    <div class="vid_col">
-       <%= image_tag("KWK_Breakdance.jpg", class:"feature_image") %>
-    </div>
-    <div class="vid_col">
-      <div class="small_img_row">
-        <%= image_tag("Z_KWK_In Nam_soon_3.jpg", class:"plays_image_s") %>
-        <p>Testing</p>
+<div class="container">
+    <h2>Wedding photo</h2>
+    <div class="card">
+      <%= image_tag("Wedding_Photo_1.JPG", class: "card-img-top") %>
+      <div class="card-body">
+          <h5 class="card-title">John and judith wedding</h5>
       </div>
-
-      <div class="small_img_row">
-        <%= image_tag("KWK_Stem.jpg", class:"plays_image_s") %>
-        <p>Testing</p>
-      </div>
-
-      <div class="small_img_row">
-        <%= image_tag("Z_KWK_Ongals_2.jpg", class:"plays_image_s") %>
-        <p>Testing</p>
-      </div>
-
     </div>
 
   </div>
 
-</div>
+
+
+
+
+
 
 
 <div class="video_player">

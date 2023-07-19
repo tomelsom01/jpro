@@ -35,4 +35,10 @@ Rails.application.routes.draw do
   get '/contreview', to: 'contreview#index'
   get '/nfixabode', to: 'nfixabode#index'
   get '/random', to: 'randomcontemplation#index'
+  get '/friendsfamily', to: 'friendsfamily#index'
+  get '/contactform', to: 'contactform#index'
+
+  resources :friendsfamily do
+    post :insert_credits, on: :collection
+  end
 end

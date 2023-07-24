@@ -33,11 +33,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_05_182234) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "friends_families", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "friendsfamilies", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

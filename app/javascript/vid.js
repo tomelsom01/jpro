@@ -9,6 +9,7 @@ console.log("hello from vid");
     playButtons.forEach(function(button) {
       button.addEventListener('click', function() {
         // Get the video index from the data attribute
+        console.log("you clicked the button!");
         const videoIndex = this.getAttribute('data-video-index');
 
         // Display the corresponding video player by setting the style to "display: block"

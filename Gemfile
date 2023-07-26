@@ -75,3 +75,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+# use cloudinary for images and videos
+gem "cloudinary"

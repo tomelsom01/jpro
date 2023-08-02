@@ -6,20 +6,7 @@
     </div>
   </div>
 
-<video controls class="videoPlayer" style="display: none;" width="100%" data-video-index="0">
-    <source src="https://res.cloudinary.com/daaxwngzv/video/upload/v1690372942/SPRING_xkhuaa.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-<video controls class="videoPlayer" style="display: none;" width="100%" data-video-index="2">
-    <iframe src="https://player.cloudinary.com/embed/?cloud_name=daaxwngzv&public_id=Autumn_2_nlcxsn.mp4" width="500px"
-  allow="autoplay; fullscreen"
-  frameborder="0"></iframe>
-</video>
 
-<video controls class="videoPlayer" style="display: none;" width="100%" data-video-index="3">
-    <source src="https://res.cloudinary.com/daaxwngzv/video/upload/v1690372832/Winter_3__idlpln.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
   <div class="container">
 
@@ -29,61 +16,50 @@
 
       <div class="season_cards">
 
-        <div class="profile-card-2">
+        <iframe
+            src="https://player.cloudinary.com/embed/?public_id=SPRING_xkhuaa&cloud_name=daaxwngzv&player[seekThumbnails]=true"
+             width="320"
+             height="180"
+              style="height: auto; aspect-ratio: 640 / 360;"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+        ></iframe>
 
-         <%= image_tag("spring.jpg", class: "img-thumbnail") %>
 
-          <div class="profile-name">
+        <iframe
+            src="https://player.cloudinary.com/embed/?public_id=Storm_at_Night_mocgr3&cloud_name=daaxwngzv&player[seekThumbnails]=true"
+             width="320"
+             height="180"
+              style="height: auto; aspect-ratio: 640 / 360;"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+        ></iframe>
 
-            <i class="fa-solid fa-play play-center playButton" data-video-index="0"></i>
+        <iframe
+            src="https://player.cloudinary.com/embed/?public_id=Autumn_2_nlcxsn&cloud_name=daaxwngzv&player[seekThumbnails]=true"
+             width="320"
+             height="180"
+              style="height: auto; aspect-ratio: 640 / 360;"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+        ></iframe>
 
-          </div>
 
-          <div class="profile-name">Spring </div>
+        <iframe
+            src="https://player.cloudinary.com/embed/?public_id=Winter_3__idlpln&cloud_name=daaxwngzv&player[seekThumbnails]=true"
+             width="320"
+             height="180"
+              style="height: auto; aspect-ratio: 640 / 360;"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+              frameborder="0"
+        ></iframe>
 
-        </div>
 
-        <div class="profile-card-2">
 
-          <%= image_tag("spring.jpg", class: "img-thumbnail") %>
-
-          <div class="profile-name">
-             <i class="fa-solid fa-play play-center playButton" data-video-index="1"></i>
-          </div>
-
-          <div class="profile-name">A Storm in Summer</div>
-
-          <div class="profile-username">@johndoesurname</div>
-
-        </div>
-
-        <div class="profile-card-2">
-
-          <%= image_tag("autumn.jpg", class: "img-thumbnail") %>
-
-          <div class="profile-name">
-
-            <i class="fa-solid fa-play play-center playButton" data-video-index="2"></i>
-
-          </div>
-
-          <div class="profile-name">Autumn </div>
-
-        </div>
-
-        <div class="profile-card-2">
-
-         <%= image_tag("winter.jpg", class: "img-thumbnail") %>
-
-          <div class="profile-name">
-
-            <i class="fa-solid fa-play play-center playButton" data-video-index="3"></i>
-
-          </div>
-
-          <div class="profile-name">Winter </div>
-
-        </div>
 
       </div>
 
@@ -218,7 +194,16 @@
   <div class="container">
     <h2>The rise of Nationalism</h2>
     <div class="card">
-          <%= image_tag("joCox.jpg", class: "card-img-top") %>
+          <iframe
+            width="640"
+            height="360"
+            style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+            src="https://www.youtube.com/embed/DzIgMoWPttU"
+            title="Jo Cox YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
           <div class="card-body">
             <h5 class="card-title">	A Song for Jo Cox: Music by David Sutton Anderson, words by John Elsom, spoken by Valentina Zaharia, with Sally Mays (pianist), Simon Desorgher (flautist) and the Kingston choir, recorded at All Saints Church, Kingston. (Video by George Venus). </h5>
           </div>
@@ -229,21 +214,23 @@
   <div class="container">
     <h2>Kingston welcomes Korea</h2>
     <div class="row">
-      <div class="cards">
+      <div class="cards2">
         <div class="card card-block">
           <%= image_tag("KWK_Breakdance.jpg", class: "card-img-top") %>
           <h5 class="card-title  mt-3 mb-3">Time to break(must change)</h5>
 
         </div>
-        <div class="card card-block">
-          <%= image_tag("Z_KWK_In Nam_soon_3.jpg", class: "card-img-top") %>
-          <h5 class="card-title  mt-3 mb-3">Korea in kingston(must change)</h5>
+        <div>
+          <div class="card card-block">
+            <%= image_tag("Z_KWK_In Nam_soon_3.jpg", class: "card-img-top") %>
+            <h5 class="card-title  mt-3 mb-3">Korea in kingston(must change)</h5>
 
-        </div>
-        <div class="card card-block">
-          <%= image_tag("Z_KWK_Ongals_2.jpg", class: "card-img-top") %>
-          <h5 class="card-title  mt-3 mb-3">Comedy peps(must change)</h5>
+          </div>
+          <div class="card card-block">
+            <%= image_tag("Z_KWK_Ongals_2.jpg", class: "card-img-top") %>
+            <h5 class="card-title  mt-3 mb-3">Comedy peps(must change)</h5>
 
+         </div>
         </div>
 
       </div>
@@ -254,7 +241,15 @@
   <div class="container">
     <h2>Hiroshima</h2>
     <div class="card">
-      <%= image_tag("thetombofhiroshima.jpg", class: "card-img-top") %>
+      <iframe
+        src="https://player.cloudinary.com/embed/?public_id=Hiroshima_1945_gui3fr&cloud_name=daaxwngzv"
+        width="640"
+        height="360"
+        style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+        allowfullscreen
+        frameborder="0"
+      ></iframe>
       <div class="card-body">
           <h5 class="card-title">	Hiroshima 1945. John’s poem. </h5>
       </div>
@@ -331,6 +326,15 @@ Has lost its voice.
 
 <div class="container">
   <h3>Your never to old to start over again...</h3>
+  <iframe
+    src="https://player.cloudinary.com/embed/?public_id=You_re_never_too_old_2_o9ilbt&cloud_name=daaxwngzv"
+    width="640"
+    height="360"
+    style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+    allowfullscreen
+    frameborder="0"
+  ></iframe>
 </div>
 
 <div class="container">

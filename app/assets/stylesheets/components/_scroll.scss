@@ -1,0 +1,39 @@
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+
+  /* animation properties */
+  -moz-transform: translateY(500%);
+  -webkit-transform: translateY(500%);
+  transform: translateY(500%);
+
+  -moz-animation: my-animation 80s linear infinite;
+  -webkit-animation: my-animation 80s linear infinite;
+  animation: my-animation 80s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-1100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-1100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-1100%);
+    -webkit-transform: translateY(-1100%);
+    transform: translateY(-1100%);
+  }
+}

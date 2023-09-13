@@ -1,7 +1,10 @@
 <div class="d-flex align-items-center booksbackground">
   <div class="container">
-    <h1>Books</h1>
-    <h2>"The voice of reason in a deluded world" - John Pick Emeritus Professor Gresham College London</h2>
+
+    <h1 class="textwhite">Books</h1>
+    <div>
+      <h3 class="textwhite">"The voice of reason in a deluded world"</h3><cite class="textwhite"> - John Pick Emeritus Professor Gresham College London<cite>
+    </div>
   </div>
 </div>
 <div class="half-and-half pt-3">
@@ -15,17 +18,20 @@
           <%= image_tag("theatre_outside_london_02.jpg", class: "img_size_l card-img-top") %>
           <p class="card-title d-flex justify-content-center">Theatre Outside London</p>
           <p class="card-text  d-flex justify-content-center">Macmillan, 1971</p>
-           <%= link_to "theatre", theatreoutsidelondon_path, data: {turbo_frame: "modal"} %>
+           <%= link_to "theatre", theatreoutsidelondon_path %>
 
         </div>
-
       <%# <% end %>
-      <div class ="card">
-        <%= image_tag("trialerotictheatre.jpg", class: "img_size_l card-img-top") %>
-        <p class="card-title d-flex justify-content-center">Erotic Theatre</p>
-        <p class="card-text  d-flex justify-content-center">Secker, 1972</p>
-        <%= link_to "erotictheatre", erotictheatre_path %>
+      <%= link_to erotictheatre_path do %>
+
+      <div class ="card m-2">
+        <%= image_tag("trialerotictheatre.jpg", class: "card-img-top") %>
+        <p class="card-title d-flex justify-content-center textdisplay">Erotic Theatre</p>
+        <cite class="card-text  d-flex justify-content-center textdisplay">- Secker, 1972 -</cite>
+
       </div>
+      <% end %>
+
       <div class ="card">
         <%= image_tag("postwarbritishtheatre.jpg", class: "img_size_l card-img-top") %>
         <p class="card-title d-flex justify-content-center">Post-War British Theatre</p>

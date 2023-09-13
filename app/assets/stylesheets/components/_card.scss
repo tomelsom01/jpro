@@ -258,3 +258,11 @@
   justify-content: flex-end;
   align-items: flex-start;
 }
+
+.maincenter{
+  display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Take up full height of the viewport */
+    text-align: center; /* Center text content */
+}

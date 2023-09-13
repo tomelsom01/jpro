@@ -22,29 +22,31 @@
 
         </div>
       <%# <% end %>
-      <%= link_to erotictheatre_path do %>
+      <%= link_to erotictheatre_path, class:"boxdisplay" do %>
 
-      <div class ="card m-2">
-        <%= image_tag("trialerotictheatre.jpg", class: "card-img-top") %>
-        <p class="card-title d-flex justify-content-center textdisplay">Erotic Theatre</p>
-        <cite class="card-text  d-flex justify-content-center textdisplay">- Secker, 1972 -</cite>
+        <div class ="card">
+          <%= image_tag("trialerotictheatre.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay">Erotic Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay">- Secker, 1972 -</cite>
 
-      </div>
+        </div>
       <% end %>
+      <%= link_to postwarbritishtheatre_path, class:"boxdisplay" do %>
+        <div class ="card">
+          <%= image_tag("postwarbritishtheatre.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay">Post-War British Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay">- Routledge, 1976, 1980 and re-issued 2014 -</cite>
 
-      <div class ="card">
-        <%= image_tag("postwarbritishtheatre.jpg", class: "img_size_l card-img-top") %>
-        <p class="card-title d-flex justify-content-center">Post-War British Theatre</p>
-        <p class="card-text  d-flex justify-content-center">Routledge, 1976, 1980 and re-issued 2014</p>
-        <%= link_to "postwar", postwarbritishtheatre_path %>
 
-      </div>
-      <div class ="card">
-        <%= image_tag("historyofnat.jpg", class: "img_size_l card-img-top") %>
-        <p class="card-title d-flex justify-content-center">The History of the The National Theatre</p>
-        <p class="card-text  d-flex justify-content-center">Cape, 1978</p>
-        <%= link_to "history", thehistoryofthenationaltheatre_path %>
-      </div>
+        </div>
+      <% end %>
+       <%= link_to thehistoryofthenationaltheatre_path, class:"boxdisplay" do %>
+        <div class ="card">
+          <%= image_tag("historyofnat.jpg", class: "card-img-top") %>
+          <p class="card-title d-flex justify-content-center textdisplay">The History of the The National Theatre</p>
+          <cite class="card-text  d-flex justify-content-center textdisplay">- Cape, 1978 -</cite>
+        </div>
+      <% end %>
       <div class ="card">
         <%= image_tag("coldwartheatre.jpg", class: "img_size_l card-img-top") %>
         <p class="card-title d-flex justify-content-center">Cold War Theatre</p>

@@ -41,4 +41,12 @@
     0px -4px 10px rgba(255,255,255,0.3);
 }
 
+.card .textdisplay {
+  text-decoration: none;
+  color: black;
+}
 
+.card .textdisplay:hover {
+  text-decoration-color: white;
+  color: red;
+}

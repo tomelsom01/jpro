@@ -46,7 +46,49 @@
   color: black;
 }
 
-.card .textdisplay:hover {
-  text-decoration-color: white;
-  color: red;
+.textdisplay{
+  text-decoration: none;
+  color: black;
+  text-shadow: 0.5px 0.5px #0000;
+}
+
+.textdisplay1{
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  text-shadow: 0.5px 0.5px #0000;
+}
+
+.textdisplay2{
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  text-shadow: 0.5px 0.5px #0000;
+}
+
+.friendcard_title {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.friendcard_title1 {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.friendcard_title2 {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 750;
 }

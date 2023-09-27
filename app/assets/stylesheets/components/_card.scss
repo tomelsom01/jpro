@@ -90,7 +90,7 @@
 
 .setposition{
   position: relative;
-  padding-top: 8%;
+  padding-top: 2%;
 }
 
 @media (max-width: 769px){
@@ -275,4 +275,13 @@
 
 .boxdisplay:hover{
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.containerCustom{
+    height: 50%;
+    width: 40%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
 }

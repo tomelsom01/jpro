@@ -4,25 +4,25 @@
   text-align: center;
 
   /* animation properties */
-  -moz-transform: translateY(500%);
-  -webkit-transform: translateY(500%);
-  transform: translateY(500%);
+  -moz-transform: translateY(1100%);
+  -webkit-transform: translateY(1100%);
+  transform: translateY(1100%);
 
-  -moz-animation: my-animation 60s linear infinite;
-  -webkit-animation: my-animation 60s linear infinite;
-  animation: my-animation 60s linear infinite;
+  -moz-animation: my-animation 90s linear infinite;
+  -webkit-animation: my-animation 90s linear infinite;
+  animation: my-animation 90s linear infinite;
 }
 
 /* for Firefox */
 @-moz-keyframes my-animation {
   from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-700%); }
+  to { -moz-transform: translateY(-1100%); }
 }
 
 /* for Chrome */
 @-webkit-keyframes my-animation {
   from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-700%); }
+  to { -webkit-transform: translateY(-1100%); }
 }
 
 @keyframes my-animation {
@@ -32,8 +32,8 @@
     transform: translateY(100%);
   }
   to {
-    -moz-transform: translateY(-700%);
-    -webkit-transform: translateY(-700%);
-    transform: translateY(-700%);
+    -moz-transform: translateY(-1100%);
+    -webkit-transform: translateY(-1100%);
+    transform: translateY(-1100%);
   }
 }

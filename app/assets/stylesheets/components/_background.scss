@@ -24,14 +24,15 @@
   width: 100%;
 }
 
-.randombackground{
-  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('KWK_Stem.jpg');
+.randombackground {
+  background-image: url("https://res.cloudinary.com/daaxwngzv/image/upload/v1696419514/young_oak_nnovba.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 70vh;
   width: 100%;
 }
+
 
 .randomround{
   background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('spinningagain.jpg');
@@ -105,11 +106,11 @@
 }
 
 .journalbackground{
-  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('tree-branch-1.jpg');
+  background-image: url("https://res.cloudinary.com/daaxwngzv/image/upload/v1696439195/oak_leaves_d5n6v3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 20vh;
+  height: 40vh;
   width: 100vw;
 }
 

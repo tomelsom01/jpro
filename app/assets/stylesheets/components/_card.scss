@@ -285,3 +285,246 @@
     margin-left: auto;
     z-index: 1;
 }
+
+.rounded-iframe {
+  border-radius: 15px; /* Adjust the value to control the degree of rounding */
+  overflow: hidden; /* Ensure content within the rounded corners is hidden */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theoffgreybox{
+  background-color: #f2f2f2; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.theredbox{
+  background-color: #cf5b5b; /* Off-grey background color */
+  border-radius: 5px;
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.thebluebox{
+  background-color: #add8e6; /* Off-grey background color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+
+
+.thegreenbox{
+  background-color: #93e487; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.thepeachbox{
+  background-color: #e998ed; /* Off-grey background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+
+.theyellowbox{
+  background-color: #f2f2f2; /* Off-grey background color */
+  border-radius: 10prgb(221, 235, 153);
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+.redcard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#cf5b5b;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.bluecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#add8e6;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.greencard{
+    position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color:#93e487;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.peachcard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:#e998ed;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.yellowcard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(234, 237, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orangecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(237, 210, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.purplecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(214, 152, 237);;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.turquoisecard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(119, 214, 195);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.purpleraincard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(122, 119, 214);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jcard{
+    position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color:rgb(237, 210, 152);
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+}
+
+.songforjccard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(237, 210, 152);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.poemcontainer{
+  width: 50%; /* Adjust the width as needed */
+    overflow-y: scroll;
+    max-height: 380px; /* Set a maximum height for scrollability */
+    margin-left: 10px;
+}
+
+.nobordercard{
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}

@@ -23,3 +23,8 @@
 #   # Report violations without enforcing the policy.
 #   # config.content_security_policy_report_only = true
 # end
+Rails.application.configure do
+  config.content_security_policy do |policy|
+    policy.script_src :self, :https, :unsafe_eval, "player.cloudinary.com"
+  end
+end

@@ -8,46 +8,50 @@
 <div class="journalismcardslayout container">
 
   <%= link_to worldandi_path, style: "text-decoration: none;" do %>
-    <div class="nobordercard" style="width: 18rem;">
-      <%= image_tag("W&I2.jpg", class: "card-img-top") %>
+    <div class="card" style="max-width: 18rem;">
+      <%= cl_image_tag("W_I2fit_g5slvo", class: "journalimage") %>
       <div class="card-body">
-        <h5 class="card-title">THE WORLD & I - 1987-2004</h5>
+        <p class="card-title textblack2">The International Association of Theatre Critics</p>
+        <cite class="card-text textblack2">THE WORLD & I 1987-2004</cite>
       </div>
     </div>
   <% end %>
 
   <%= link_to thelondonmag_path, style: "text-decoration: none;" do %>
-  <div class="nobordercard" style="width: 18rem;">
-    <%= image_tag("LM1.jpg", class: "card-img-top") %>
+  <div class="card" style="max-width: 18rem;">
+    <%= cl_image_tag("LM1fit_pkx12v", class: "journalimage") %>
       <div class="card-body">
-        <h5 class="card-title">THE LONDON MAGAZINE – 1963-70</h5>
+      <p class="card-title textblack2">Theatre correspondent and Talent scout at Paramount Pictures</p>
+        <cite class="card-text textblack2">THE LONDON MAGAZINE 1963-70</cite>
       </div>
     </div>
   <% end %>
 
   <%= link_to nfixabode_path, style: "text-decoration: none;" do %>
-    <div class="nobordercard" style="width: 18rem;">
-      <%= image_tag("NFA2.jpg", class: "card-img-top") %>
+    <div class="card" style="max-width: 18rem;">
+      <%= image_tag("NFA2.jpg", class: "journalimage") %>
       <div class="card-body">
-        <h5 class="card-title">Citizen Journalism</h5>
+        <p class="card-title textblack2">Citizen Journalism</p>
       </div>
     </div>
   <% end %>
 
   <%= link_to contreview_path, style: "text-decoration: none;" do %>
-    <div class="nobordercard" style="width: 18rem;">
-      <%= image_tag("CR_1.jpg", class: "card-img-top") %>
+    <div class="card" style="max-width: 18rem;">
+       <%= cl_image_tag("CR_1fit_bfvw4c", class: "journalimage") %>
       <div class="card-body">
-        <h5 class="card-title">CONTEMPORARY REVIEW – 1978-90</h5>
+        <p class="card-title textblack2">The Transformation of a brave new world</p>
+        <cite class="card-text textblack2">CONTEMPORARY REVIEW 1978-90</cite>
       </div>
     </div>
   <% end %>
 
   <%= link_to thelistener_path, style: "text-decoration: none;" do %>
-    <div class="nobordercard" style="width: 18rem;">
-      <%= image_tag("List_Web034.jpg", class: "card-img-top") %>
+    <div class="card" style="max-width: 18rem;">
+      <%= image_tag("List_Web034.jpg", class: "journalimage") %>
       <div class="card-body">
-        <h5 class="card-title">THE LISTENER – 1972-82</h5>
+        <p class="card-title textblack2">The Following of the Theatre Outside London</p>
+        <cite class="card-text textblack2">THE LISTENER 1972-82</cite>
       </div>
     </div>
   <% end %>

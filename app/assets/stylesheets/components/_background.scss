@@ -155,3 +155,49 @@
 .oldboybottom{
   padding-bottom: 10%;
 }
+
+.peacemakerbackground{
+
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('Peacemaker02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    width: 100%;
+
+
+}
+.mauibackground{
+
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('maui3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50vh;
+  width: 100%;
+
+
+}
+.onemorebullbackground{
+
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('onemorebull1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90vh;
+  width: 100%;
+
+
+}
+
+.wellintentionedbuilderbackground{
+
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url("thewellintentionbuilder_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 50vh;
+  width: 100%;
+
+
+}

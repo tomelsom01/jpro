@@ -37,6 +37,7 @@ Rails.application.routes.draw do
   get '/random', to: 'randomcontemplation#index'
   get '/friendsfamily', to: 'friendsfamily#index'
   get '/contactform', to: 'contactform#index'
+  get '/yourshire', to: 'yourshire#index'
 
   resources :friendsfamily do
     post :insert_credits, on: :collection

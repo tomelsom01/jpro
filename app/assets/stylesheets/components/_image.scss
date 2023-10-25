@@ -62,3 +62,17 @@
 .roundimage{
   border-radius: 50%;
 }
+
+
+.aboutimagesmall {
+  float: left;
+  margin: 5px;
+  width: 20vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.text-content {
+  text-align: justify;
+  font-size: 15px;
+}

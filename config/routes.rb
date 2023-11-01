@@ -36,8 +36,13 @@ Rails.application.routes.draw do
   get '/nfixabode', to: 'nfixabode#index'
   get '/random', to: 'randomcontemplation#index'
   get '/friendsfamily', to: 'friendsfamily#index'
-  get '/contactform', to: 'contactform#index'
+
   get '/yourshire', to: 'yourshire#index'
+
+  get '/contactform', to: 'contactform#index'
+  post '/contact', to: 'contactform#create'
+  resources :correspondences
+
 
   resources :friendsfamily do
     post :insert_credits, on: :collection

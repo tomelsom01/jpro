@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
-  def home
-  end
-  def about
+  # app/controllers/pages_controller.rb
+
+  def index
   end
 end

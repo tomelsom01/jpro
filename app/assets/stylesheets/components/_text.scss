@@ -212,6 +212,14 @@
   padding-left: 27%;
 }
 
+.sizejournal{
+  font-size: 1.5vw;
+}
+
+.intenttext{
+  margin-left: 6vw;
+}
+
 @media (max-width: 1500px) {
   .sizebooks{
     font-size: 1vw;
@@ -219,4 +227,18 @@
   .size3{
     font-size: 4vw;
   }
+
+  .sizejournal{
+    font-size: 1vw;
+  }
+
+}
+@media (min-width: 1800px){
+  .spacedownonbigscreen{
+    padding-bottom: 3vw;
+  }
+}
+
+.cite2{
+  font-style: italic;
 }

@@ -52,10 +52,21 @@
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 0.1vw solid #28a745;
-  padding: 1vw 2vw; /* Using vw units for responsive padding */
+  padding: 0.5vw 1vw; /* Using vw units for responsive padding */
   font-size: 1.2vw; /* Using vw units for responsive font size */
   line-height: 1.5;
   border-radius: 0.5vw; /* Using vw units for responsive border radius */
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.black-outline-button{
+  color: #333;
+  border: 1px solid #333; /* Adding the border */
+}
+
+.black-outline-button:hover{
+  color: white; /* Text color on hover */
+  background-color: #333; /* Background color on hover */
+  border-color: #333; /* Border color on hover */
+  text-decoration: none; /* Remove underline on hover */
 }

@@ -1,32 +1,36 @@
 <div class="plantingtreeimg">
-  <div class="cardsdis container setposition">
-    <%= image_tag("world_without_worship_cover.jpg", class: "wid50 me-5") %>
-    <div class ="wid50 tealign">
-      <h2>World Without Worship – 2013 </h2>
-      <h4>(fiction – available online)</h4>
+  <div class="cardsdis container-fluid">
+    <div class="img-container">
+      <%= image_tag("world_without_worship_cover.jpg", class: "wid50 me-5") %>
+    </div>
+    <div class ="text-container">
+      <h2 class="size3">World Without Worship – 2013 </h2>
+      <h4 class="size7 cite2">(fiction – available online)</h4>
       <div>
-        <button class="btn btn-outline-dark">Want to read?</button>
-        <%= link_to "More about the author?", about_path, class:"btn btn-outline-success" %>
+         <%= link_to "Want to read?", contactform_path, class:"mainbutton2 black-outline-button" %>
+      <%= link_to "More about the author?", about_path, class:"mainbutton2 green-outling-button ml-3" %>
       </div>
 
     </div>
   </div>
 
-  <div class="col-m container">
+  <div class="col-m container-fluid sizebooks">
     <p>Ten short stories about the thin dividing lines between factual knowledge, intuitive guesswork, and strange happenings.
 <p>Titles:</p>
-<ol>
-<li>A Skirmish on the Left Bank;</li>
-<li>Never Look Down;</li>
-<li>the Colony;</li>
-<li>That Space Between Us;</li>
-<li>East Window;</li>
-<li>War Effort;</li>
-<li>Foreign Correspondent;</li>
-<li>World Within;</li>
-<li>Ants;</li>
-<li>Dame Sandra Davis.</li>
-</ol>
+<div class="intenttext">
+  <ol>
+  <li>A Skirmish on the Left Bank;</li>
+  <li>Never Look Down;</li>
+  <li>the Colony;</li>
+  <li>That Space Between Us;</li>
+  <li>East Window;</li>
+  <li>War Effort;</li>
+  <li>Foreign Correspondent;</li>
+  <li>World Within;</li>
+  <li>Ants;</li>
+  <li>Dame Sandra Davis.</li>
+  </ol>
+</div>
 → World Within (stage play)
     </p>
   </div>

@@ -13,13 +13,13 @@ class ContactformController < ApplicationController
       else
         flash[:alert] = 'Form submission failed.'
       end
-      redirect_to about_path
+      redirect_to contactform_path
     end
   end
 
   private
 
   def correspondence_params
-    params.require(:correspondence).permit(:name, :email, :street, :city, :postcode)
+    params.require(:correspondence).permit(:name, :email, :streetaddress, :city, :postcode)
   end
 end

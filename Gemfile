@@ -77,3 +77,8 @@ group :test do
 end
 # use cloudinary for images and videos
 gem "cloudinary"
+
+group :development do
+  gem 'letter_opener'
+end
+

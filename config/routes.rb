@@ -39,10 +39,9 @@ Rails.application.routes.draw do
 
   get '/yourshire', to: 'yourshire#index'
 
-  get '/contactform', to: 'contactform#index'
-  post '/contact', to: 'contactform#create'
+  get '/contactform', to: 'correspondence#index'
+  post '/correspondences', to: 'correspondence#create'
   resources :correspondences
-
 
   resources :friendsfamily do
     post :insert_credits, on: :collection

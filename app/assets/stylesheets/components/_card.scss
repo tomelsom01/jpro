@@ -2,8 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1px;
+  display: flex;
+  justify-content: center;
+}
+.playscards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1px;
   align-items: stretch;
 }
+
 
 .cards2{
   display: grid;

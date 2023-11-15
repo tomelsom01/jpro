@@ -6,15 +6,14 @@
   <article class="row justify-content-center">
     <div class="col-xxl-10">
       <div class="card card-signup p-3">
-        <%= simple_form_for(@correspondence) do |f| %>
+        <%= simple_form_for(@correspondance) do |f| %>
           <%= f.error_notification %>
           <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
           <div class="form-inputs">
             <%= f.input :name, placeholder: "Full Name" %>
             <%= f.input :email, placeholder: "Email" %>
-            <%= f.input :streetaddress, placeholder: "Street Address" %>
-            <%= f.input :city, placeholder: "City" %>
-            <%= f.input :postcode, placeholder: "Postcode" %>
+            <%= f.input :message, placeholder: "Message" %>
+
           </div>
           <div class="form-actions">
             <%= f.button :submit, "Send Message", class: "btn btn-outline-success" %>

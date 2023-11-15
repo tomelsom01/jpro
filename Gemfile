@@ -77,8 +77,8 @@ group :test do
 end
 # use cloudinary for images and videos
 gem "cloudinary"
+gem "mail_form"
 
 group :development do
   gem 'letter_opener'
 end
-

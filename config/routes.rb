@@ -41,7 +41,10 @@ Rails.application.routes.draw do
 
   get '/contactform', to: 'correspondence#index'
   post '/correspondences', to: 'correspondence#create'
+  get '/emailform', to: 'email#new'
   resources :correspondences
+  resources :email
+  resources :emails, only: [:index, :new, :create]
 
   resources :friendsfamily do
     post :insert_credits, on: :collection

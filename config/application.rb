@@ -1,4 +1,6 @@
 require_relative "boot"
+require 'mail_form'
+
 
 require "rails/all"
 

@@ -7,32 +7,19 @@
 </div>
 
 <div class="headgap headingplacement2">
-  <h2 class="size5"><strong><u>Programme</u></strong></h2>
+  <h2 class="size5"><strong><u>Currently Online</u></strong></h2>
 </div>
 
 
 <div class="playscontainer">
   <div>
-    <div class="cards">
-      <%= link_to peacemaker_path, class: "playcard", style: "text-decoration: none;" do %>
-        <div class="card text-center paleorangebackground" >
-          <%= image_tag("Peacemaker02.jpg", class: "card-img-top") %>
-
-        <div class="card-body paleorangebackground">
-          <h4 class="card-title pt-5 textdisplay sizebooks">Peacemaker</h4>
-          <h5 class="card-text textdisplay sizebooks">1956</h5>
-          <h6 class="card-text textdisplay sizebooks">ADC Theatre, Cambridge</h6>
-        </div>
-
-        </div>
-      <% end %>
-      <%= link_to maui_path, class: "playcard", style: "text-decoration: none;" do %>
-        <div class="card text-center deeporangebackground">
-          <%= image_tag("maui3.jpg", class: "card-img-top") %>
-          <div class="card-body deeporangebackground">
-            <h5 class="card-title pt-5 textdisplay sizebooks">Maui</h5>
-            <h6 class="card-text textdisplay sizebooks">libretto for the opera by Barry Anderson, 1958</h6>
-            <h6 class="card-text textdisplay sizebooks">New Zealand</h6>
+    <div class="playscards">
+      <%= link_to thewellintentionedbuilder_path, class: "playcard", style: "text-decoration: none;" do %>
+        <div class="card text-center  skyblue">
+          <%= image_tag("thewellintentionedbuilder01.jpg", class: "card-img-top") %>
+          <div class="card-body skyblue">
+            <h5 class="card-title pt-5 textdisplay sizebooks">The Well-intentioned Builder</h5>
+            <h6 class="card-text textdisplay sizebooks">Cockpit Theatre, London, 1966 and National Theatre of Craiova, Romania, 2004</h6>
           </div>
         </div>
       <% end %>
@@ -43,35 +30,6 @@
             <h5 class="card-title pt-5 textdisplay sizebooks">One More Bull</h5>
             <h6 class="card-text textdisplay sizebooks">1966</h6>
             <p class="card-text textdisplay sizebooks">Cockpit Theatre, London</p>
-          </div>
-        </div>
-      <% end %>
-      <%= link_to thewellintentionedbuilder_path, class: "playcard", style: "text-decoration: none;" do %>
-        <div class="card text-center  skyblue">
-          <%= image_tag("thewellintentionedbuilder01.jpg", class: "card-img-top") %>
-          <div class="card-body skyblue">
-            <h5 class="card-title pt-5 textdisplay sizebooks">The Well-intentioned Builder</h5>
-            <h6 class="card-text textdisplay sizebooks">Cockpit Theatre, London, 1966 and National Theatre of Craiova, Romania, 2004</h6>
-          </div>
-        </div>
-      <% end %>
-      <%= link_to malonedies_path, class: "playcard", style: "text-decoration: none;" do %>
-        <div class="card text-center">
-          <%= image_tag("melonedies01_edited.jpg", class: "card-img-top") %>
-          <div class="card-body">
-            <h5 class="card-title textdisplay sizebooks">Malone Dies</h5>
-            <h6 class="card-text textdisplay sizebooks">1984</h6>
-            <p class="textdisplay sizebooks">Edinburgh International Festival</p>
-          </div>
-        </div>
-      <% end %>
-      <%= link_to heddagabler_path, class: "playcard", style: "text-decoration: none;" do %>
-        <div class="card text-center sagebackground">
-          <%= image_tag("heddagabler02_edited.jpg", class: "card-img-top") %>
-          <div class="card-body sagebackground">
-            <h4 class="card-title pt-5 textdisplay sizebooks">Hedda Gabler</h4>
-            <h5 class="card-text textdisplay sizebooks">2006</h5>
-            <h6 class="textdisplay sizebooks">Edinburgh Fringe Festival</h6>
           </div>
         </div>
       <% end %>
@@ -104,6 +62,58 @@
           </div>
         </div>
       <% end %>
+    </div>
+      <div class="headgap headingplacement2">
+        <h2 class="size5"><strong><u>Past Production</u></strong></h2>
+      </div>
+    <div class="playscards">
+
+      <%= link_to peacemaker_path, class: "playcard", style: "text-decoration: none;" do %>
+        <div class="card text-center paleorangebackground" >
+          <%= image_tag("Peacemaker02.jpg", class: "card-img-top") %>
+
+        <div class="card-body paleorangebackground">
+          <h4 class="card-title pt-5 textdisplay sizebooks">Peacemaker</h4>
+          <h5 class="card-text textdisplay sizebooks">1956</h5>
+          <h6 class="card-text textdisplay sizebooks">ADC Theatre, Cambridge</h6>
+        </div>
+
+        </div>
+      <% end %>
+
+
+
+      <%= link_to malonedies_path, class: "playcard", style: "text-decoration: none;" do %>
+        <div class="card text-center lightgreybackground">
+          <%= image_tag("melonedies01_edited.jpg", class: "card-img-top") %>
+          <div class="card-body lightgreybackground">
+            <h5 class="card-title pt-5 textdisplay sizebooks">Malone Dies</h5>
+            <h6 class="card-text textdisplay sizebooks">1984</h6>
+            <p class="card-text textdisplay sizebooks">Edinburgh International Festival</p>
+          </div>
+        </div>
+      <% end %>
+       <%= link_to maui_path, class: "playcard", style: "text-decoration: none;" do %>
+        <div class="card text-center deeporangebackground">
+          <%= image_tag("maui3.jpg", class: "card-img-top") %>
+          <div class="card-body deeporangebackground">
+            <h5 class="card-title pt-5 textdisplay sizebooks">Maui</h5>
+            <h6 class="card-text textdisplay sizebooks">libretto for the opera by Barry Anderson, 1958</h6>
+            <h6 class="card-text textdisplay sizebooks">New Zealand</h6>
+          </div>
+        </div>
+      <% end %>
+      <%= link_to heddagabler_path, class: "playcard", style: "text-decoration: none;" do %>
+        <div class="card text-center sagebackground">
+          <%= image_tag("heddagabler02_edited.jpg", class: "card-img-top") %>
+          <div class="card-body sagebackground">
+            <h4 class="card-title pt-5 textdisplay sizebooks">Hedda Gabler</h4>
+            <h5 class="card-text textdisplay sizebooks">2006</h5>
+            <h6 class="textdisplay sizebooks">Edinburgh Fringe Festival</h6>
+          </div>
+        </div>
+      <% end %>
+
       <%= link_to worldwithin_path, class: "playcard", style: "text-decoration: none;" do %>
         <div class="card text-center skyblue">
           <%= image_tag("worldwithin1.jpg", class: "card-img-top") %>

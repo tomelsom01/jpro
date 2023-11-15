@@ -8,18 +8,18 @@
   </div>
 </div>
 <div class="pt-5">
-<div class="headgap headingplacement2">
-  <h2 class="size5"><strong><u>Current</u></strong></h2>
-</div>
+
 
   <div class="text-center">
-
-    <div class="cardsbooks ">
+    <div class="headgap headingplacement2">
+      <h2 class="size5"><strong><u>Currently Online</u></strong></h2>
+    </div>
+    <div class="cards">
 
       <%= link_to worldwithoutworship_path, class:"boxdisplay", style: "text-decoration: none;" do %>
         <div>
           <%= image_tag("world_without_worship_cover.jpg", class: "card-img-top") %>
-          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">WWW</p>
+          <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">World Without Worship</p>
 
         </div>
       <% end %>
@@ -38,11 +38,15 @@
           <%= image_tag("sliding_scales_Cover.jpg", class: "card-img-top") %>
           <p class="card-title d-flex justify-content-center textdisplay pt-1 sizebooks">Sliding Scales</p>
           <p class="card-text  d-flex justify-content-center textdisplay sizebooks">A relative history of now</p>
-          
+
         </div>
       <% end %>
 
-
+    </div>
+    <div class="headgap headingplacement2">
+      <h2 class="size5"><strong><u>Texts in print</u></strong></h2>
+    </div>
+    <div class="cardsbooks">
 
        <%= link_to theatreoutsidelondon_path, class:"boxdisplay", style: "text-decoration: none;" do %>
         <div>

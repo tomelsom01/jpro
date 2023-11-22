@@ -41,7 +41,7 @@ Rails.application.routes.draw do
 
   get '/contactform', to: 'correspondence#index'
   post '/correspondences', to: 'correspondence#create'
-  get '/emailform', to: 'email#new'
+  get '/emailform', to: 'emails#new'
   resources :correspondences
   resources :email
   resources :emails

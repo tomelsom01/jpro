@@ -82,3 +82,7 @@ gem "mail_form"
 group :development do
   gem 'letter_opener'
 end
+
+# reduce the size of javascript files
+gem 'uglifier'
+

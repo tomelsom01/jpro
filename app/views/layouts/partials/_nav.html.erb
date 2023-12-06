@@ -2,12 +2,8 @@
     <div>
         <%= link_to "John Elsom", root_path, class: "navbar-logo" %>
     </div>
-    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- You can remove the icon element entirely -->
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+    <div class="clickme" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto navbarlinks">
             <li class="nav-item">
                 <%= link_to "Books", books_path, class: "nav-link" %>
             </li>

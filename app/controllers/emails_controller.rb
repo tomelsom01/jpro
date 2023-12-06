@@ -11,9 +11,9 @@ class EmailsController < ApplicationController
     @email = Email.new(email_params)
 
     if @email.deliver
-      flash[:notice] = 'Form submitted successfully. We will be in touch soon!'
+      flash[:notice] = 'Thank you! Your message has been sent successfully.'
     else
-      flash[:alert] = 'Form submission failed. Please fill in all required fields.'
+      flash[:alert] = 'Oops! Something went wrong. Please check the form and try again.'
     end
     redirect_to emailform_path
   end

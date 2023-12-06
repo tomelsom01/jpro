@@ -217,7 +217,8 @@
 }
 
 .intenttext{
-  margin-left: 6vw;
+  margin: 0 auto;
+  width: 25%;
 }
 
 @media (max-width: 1500px) {
@@ -241,4 +242,9 @@
 
 .cite2{
   font-style: italic;
+}
+@media(max-width: 991px){
+  .sizebooks{
+    font-size: 2vw;
+  }
 }

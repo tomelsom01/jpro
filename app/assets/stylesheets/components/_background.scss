@@ -57,16 +57,17 @@
   background-color: #daad86;
 }
 
-.plantingtreeimg{
-  background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('young-tree-shoot.jpg');
-  background-size: fill;
+.plantingtreeimg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('young-tree-shoot.jpg');
+  background-size: cover; /* or background-size: contain; */
   background-repeat: no-repeat;
-  background-position: bottom -100px right 5px;
+  background-position: bottom right; /* Adjust as needed */
   height: 100%;
   width: 100%;
   color: black;
   text-shadow: #FFFFFF;
 }
+
 
 .curtainsbackground{
   background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('curtains.jpg');

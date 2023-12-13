@@ -67,21 +67,6 @@
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
 }
 
-.cancel-button {
-  background-color: #1530ff;
-  font-size: 12px;
-  color: white;
-  padding: 4px 8px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  text-decoration: none;
-}
-.cancel-button:hover {
-  background-color: #2640fe;
-}
-
 .wid50{
   width: 50vh;
 }
@@ -90,6 +75,14 @@
   display: flex; /* Use flexbox for layout */
   align-items: center;
 }
+.cardhead{
+  border: 5px solid red;
+  }
+  .redborder {
+    border: 10px solid red !important;
+    color: red;
+  }
+
 
 .img-container {
   flex: 1;
@@ -109,12 +102,6 @@
 .setposition{
   position: relative;
   padding-top: 2%;
-}
-
-@media (max-width: 769px){
-  .cardsdis{
-    grid-template-columns: 1fr;
-  }
 }
 
 .cardbackground2{
@@ -651,4 +638,5 @@
       justify-content: center;
       grid-gap: 1px;
     }
+
   }

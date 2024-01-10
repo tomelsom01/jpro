@@ -600,43 +600,70 @@
 }
 
 
-  @media(max-width: 991px){
-    .cards{
-      display: flex;
-      flex-direction: column; /* Change the direction to column for vertical stacking */
-      justify-content: center;
-      grid-gap: 1px;
-    }
-    .cardsbooks{
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: column; /* Change the direction to column for vertical stacking */
-      justify-content: center;
-      grid-gap: 1px;
-
-    }
-    .boxdisplay {
-      width: 80%;
-      margin: 1vw auto;
-    }
-    .boxdisplay2 {
-      width: 80%;
-      margin: 1vw auto;
-    }
-    .playscards{
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: column; /* Change the direction to column for vertical stacking */
-      justify-content: center;
-      grid-gap: 1px;
-
-    }
-    .journalismcardslayout{
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: column; /* Change the direction to column for vertical stacking */
-      justify-content: center;
-      grid-gap: 1px;
-    }
+@media(max-width: 991px){
+  .cards{
+    display: flex;
+    flex-direction: column; /* Change the direction to column for vertical stacking */
+    justify-content: center;
+    grid-gap: 1px;
+  }
+  .cardsbooks{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column; /* Change the direction to column for vertical stacking */
+    justify-content: center;
+    grid-gap: 1px;
 
   }
+  .boxdisplay {
+    width: 80%;
+    margin: 1vw auto;
+  }
+  .boxdisplay2 {
+    width: 80%;
+    margin: 1vw auto;
+  }
+  .playscards{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column; /* Change the direction to column for vertical stacking */
+    justify-content: center;
+    grid-gap: 1px;
+
+  }
+  .journalismcardslayout{
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column; /* Change the direction to column for vertical stacking */
+    justify-content: center;
+    grid-gap: 1px;
+  }
+
+  .cardsdis{
+    display: grid; /* Use flexbox for layout */
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .img-container{
+    width: 100%; /* Ensure full width on smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container{
+    width: 100%; /* Ensure full width on smaller screens */
+    justify-content: center;
+    align-items: center;
+  }
+  .textcenteronsmallerscreens{
+    display: flex;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .videoforsmallerscreen{
+    padding-top: 1rem;
+  }
+
+}

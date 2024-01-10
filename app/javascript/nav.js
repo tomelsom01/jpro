@@ -1,1 +1,1 @@
-console.log('nav.js loaded');
+console.log('Hey!');

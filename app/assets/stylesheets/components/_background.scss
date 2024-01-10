@@ -59,7 +59,7 @@
 
 .plantingtreeimg {
   background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('young-tree-shoot.jpg');
-  background-size: cover; /* or background-size: contain; */
+  background-size: fill; /* or background-size: contain; */
   background-repeat: no-repeat;
   background-position: bottom right; /* Adjust as needed */
   height: 100%;

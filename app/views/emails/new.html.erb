@@ -1,17 +1,24 @@
 <!-- app/views/email/new.html.erb -->
+<div class="contactformbackground centerform">
+  <div class="pt-5">
+  <div class="formcontainer">
+    <h1 class="contacttitle">Contact Form</h1>
 
-<h1>Contact Form</h1>
 
-<%= simple_form_for(@email) do |f| %>
-  <%= f.error_notification %>
+    <%= simple_form_for(@email) do |f| %>
+      <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :name, label: "Full Name", placeholder: "John Doe" %>
-    <%= f.input :email, label: "Email", placeholder: "john@example.com" %>
-    <%= f.input :message, label: "Message", as: :text, placeholder: "Type your message here..." %>
+      <div class="form-inputs">
+        <%= f.input :name, label: "Full Name", placeholder: "John Doe" %>
+        <%= f.input :email, label: "Email", placeholder: "john@example.com" %>
+        <%= f.input :message, label: "Message", as: :text, placeholder: "Type your message here..." %>
+      </div>
+
+      <div class="btn btn-success">
+        <%= f.button :submit, "Send Email" %>
+      </div>
+    <% end %>
+  </div>
   </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Send Email" %>
-  </div>
-<% end %>
+</div>

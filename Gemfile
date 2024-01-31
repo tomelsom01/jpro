@@ -83,4 +83,7 @@ group :development do
   gem 'letter_opener'
 end
 
-
+# create pdf for articles
+gem 'wicked_pdf'
+gem "wkhtmltopdf-binary", group: :development
+gem "wkhtmltopdf-heroku", group: :production

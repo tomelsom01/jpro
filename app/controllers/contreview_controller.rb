@@ -109,6 +109,87 @@ class ContreviewController < ApplicationController
     end
   end
 
+  def painted_tunnel
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("painted_tunnel", "contreview/painted_tunnel")
+      end
+    end
+  end
+
+  def to_merge_or_not_merge
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("to_merge_or_not_merge", "contreview/to_merge_or_not_merge")
+      end
+    end
+  end
+
+  def the_end_of_the_absurd
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("the_end_of_the_absurd", "contreview/the_end_of_the_absurd")
+      end
+    end
+  end
+
+  def spring
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("spring", "contreview/spring")
+      end
+    end
+  end
+
+  def orwell_in_suffolk
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("orwell_in_suffolk", "contreview/orwell_in_suffolk")
+      end
+    end
+  end
+
+  def samuel_beckett_max_wall_and_me
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("samuel_beckett_max_wall_and_me", "contreview/samuel_beckett_max_wall_and_me")
+      end
+    end
+  end
+
+  def cinderella
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("cinderella", "contreview/cinderella")
+      end
+    end
+  end
+
+  def dancing_with_swords
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("dancing_with_swords", "contreview/dancing_with_swords")
+      end
+    end
+  end
+
+  def changing_frames
+    respond_to do |format|
+      format.html
+      format.pdf do
+        render_common_pdf("changing_frames", "contreview/changing_frames")
+      end
+    end
+  end
+
 
   def minister_non_quantum_shift_download
     html = render_to_string(action: :minister_non_quantum_shift, layout: "pdf_layout.html")

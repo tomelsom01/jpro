@@ -1,0 +1,2 @@
+class MinisternonquantumshiftController < ApplicationController
+end

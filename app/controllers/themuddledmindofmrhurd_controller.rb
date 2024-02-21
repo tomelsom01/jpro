@@ -1,0 +1,2 @@
+class ThemuddledmindofmrhurdController < ApplicationController
+end

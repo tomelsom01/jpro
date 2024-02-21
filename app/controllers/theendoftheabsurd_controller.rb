@@ -1,0 +1,2 @@
+class TheendoftheabsurdController < ApplicationController
+end

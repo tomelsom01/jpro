@@ -1,0 +1,2 @@
+class CanwechangeourmindsController < ApplicationController
+end

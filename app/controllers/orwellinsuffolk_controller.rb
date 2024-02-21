@@ -1,0 +1,2 @@
+class OrwellinsuffolkController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class CitiesthatshuntheartistsController < ApplicationController
+end

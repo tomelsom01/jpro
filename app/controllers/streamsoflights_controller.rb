@@ -1,0 +1,2 @@
+class StreamsoflightsController < ApplicationController
+end

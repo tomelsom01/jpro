@@ -85,5 +85,7 @@ end
 
 # create pdf for articles
 gem 'wicked_pdf'
-gem "wkhtmltopdf-binary", group: :development
-gem "wkhtmltopdf-heroku", group: :production
+
+# Create PDF with Pandoc
+
+gem 'pandoc-ruby'

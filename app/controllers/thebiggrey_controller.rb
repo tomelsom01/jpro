@@ -1,0 +1,2 @@
+class ThebiggreyController < ApplicationController
+end

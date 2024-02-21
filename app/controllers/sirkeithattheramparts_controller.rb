@@ -1,0 +1,2 @@
+class SirkeithattherampartsController < ApplicationController
+end

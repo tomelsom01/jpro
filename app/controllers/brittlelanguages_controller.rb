@@ -1,0 +1,2 @@
+class BrittlelanguagesController < ApplicationController
+end

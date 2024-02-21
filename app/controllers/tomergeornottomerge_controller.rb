@@ -1,0 +1,2 @@
+class TomergeornottomergeController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class ChangingframesController < ApplicationController
+end

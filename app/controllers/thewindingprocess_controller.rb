@@ -1,0 +1,2 @@
+class ThewindingprocessController < ApplicationController
+end

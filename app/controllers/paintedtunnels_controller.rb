@@ -1,0 +1,2 @@
+class PaintedtunnelsController < ApplicationController
+end

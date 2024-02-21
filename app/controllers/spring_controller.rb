@@ -1,0 +1,2 @@
+class SpringController < ApplicationController
+end

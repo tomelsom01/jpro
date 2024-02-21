@@ -1,3 +1,5 @@
+require 'pandoc-ruby'
+
 class ContreviewController < ApplicationController
   def index
   end
@@ -11,14 +13,7 @@ class ContreviewController < ApplicationController
     end
   end
 
-  def minister_non_quantum_shift
-    respond_to do |format|
-      format.html
-      format.pdf do
-        render_common_pdf("minister_non_quantum_shift", "contreview/minister_non_quantum_shift")
-      end
-    end
-  end
+
 
   def brittle_language
     respond_to do |format|

@@ -1,0 +1,2 @@
+class CinderellaController < ApplicationController
+end

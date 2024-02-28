@@ -1,0 +1,2 @@
+class GardenofsiberiasController < ApplicationController
+end

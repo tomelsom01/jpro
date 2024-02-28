@@ -1,0 +1,2 @@
+class SoftzlotysController < ApplicationController
+end

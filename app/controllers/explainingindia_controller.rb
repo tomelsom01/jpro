@@ -1,0 +1,2 @@
+class ExplainingindiaController < ApplicationController
+end

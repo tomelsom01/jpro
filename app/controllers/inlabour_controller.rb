@@ -1,0 +1,2 @@
+class InlabourController < ApplicationController
+end

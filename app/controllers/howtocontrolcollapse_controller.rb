@@ -1,0 +1,2 @@
+class HowtocontrolcollapseController < ApplicationController
+end

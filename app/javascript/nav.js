@@ -1,1 +1,1 @@
-console.log('Hey!');
+//q: why isnt my javascript buttons working?  

@@ -1,0 +1,2 @@
+class GlobalVillagesController < ApplicationController
+end

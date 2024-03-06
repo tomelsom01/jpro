@@ -1,0 +1,2 @@
+class IsraeltheschnitzelController < ApplicationController
+end

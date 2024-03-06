@@ -68,19 +68,6 @@
   text-shadow: #FFFFFF;
 }
 
-.plantingtreeimgtofit {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('young-tree-shoot.jpg');
-  object-fit: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  color: black;
-  text-shadow: #FFFFFF;
-  z-index: -1;
-}
-
-
-
 .curtainsbackground{
   background-image:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), image_url('curtains.jpg');
   background-size: cover;

@@ -41,7 +41,7 @@
 
 .img_test{
   width: 35vw;
-  height: 60vh;
+  height: auto;
 }
 
 .posterimagel{
@@ -91,4 +91,15 @@
 
 .pushback{
   z-index: -10;
+}
+
+@media(max-width: 991px){
+  .journalimage {
+    width: 100%;
+    height: auto;
+  }
+  .img_test {
+    width: 100%;
+    height: auto;
+  }
 }

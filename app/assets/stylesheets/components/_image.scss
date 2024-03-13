@@ -92,6 +92,11 @@
 .pushback{
   z-index: -10;
 }
+.smallscreenwellintentionedbuilder{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 @media(max-width: 991px){
   .journalimage {
@@ -101,5 +106,12 @@
   .img_test {
     width: 100%;
     height: auto;
+  }
+
+  .smallscreenwellintentionedbuilder{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
   }
 }

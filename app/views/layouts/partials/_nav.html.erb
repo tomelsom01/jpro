@@ -2,7 +2,7 @@
     <div>
         <%= link_to "John Elsom", root_path, class: "navbar-logo" %>
     </div>
-    <div class="clickme" id="navbarSupportedContent">
+    <div class="clickme mainnavdisappear" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto navbarlinks">
             <li class="nav-item">
                 <%= link_to "Books", books_path, class: "nav-link" %>
@@ -21,4 +21,32 @@
             </li>
         </ul>
     </div>
+
+    <div class="navdisappear">
+      <div data-controller = toggle>
+        <h2 class= "nav-link text-center" data-action="click->toggle#fire">Menu</h2>
+        <div class = "mt-4 d-none" data-toggle-target="toggleableElement">
+        <div id="navbarSupportedContent1">
+          <ul class="navbar-nav ml-auto navbarlinks">
+            <li class="nav-item">
+                <%= link_to "Books", books_path, class: "text-center nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Plays", plays_path, class: "text-center nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Journalism", journalism_path, class: "text-center nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "About", about_path, class: "text-center nav-link" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "Contact me", emailform_path, class: "text-center nav-link" %>
+            </li>
+        </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
 </nav>

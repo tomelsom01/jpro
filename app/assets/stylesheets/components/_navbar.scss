@@ -70,6 +70,65 @@
   transition: color 0.5s;
 }
 
+
+#navbarSupportedContent1{
+	overflow: hidden;
+	position: relative;
+}
+#navbarSupportedContent1 ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navbarSupportedContent1 ul li a i{
+	margin-right: 10px;
+}
+#navbarSupportedContent1 li {
+	list-style-type: none;
+	float: left;
+}
+#navbarSupportedContent1 ul li a{
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 1.2vw; /* Using 'vw' units for responsive font size */
+  display: block;
+  padding: 1vw 1vw; /* Using 'vw' units for responsive padding */
+  transition-duration:0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+}
+#navbarSupportedContent1>ul>li.active>a{
+	color: black;
+	background-color: transparent;
+	transition: all 0.7s;
+}
+#navbarSupportedContent1 a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	font-family: "Font Awesome 5 Free";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+#navbarSupportedContent1 .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+/* Add hover effect to all links */
+#navbarSupportedContent1 ul li a:hover {
+  color: #00E676;
+  transition: color 0.5s;
+}
+
+/* Add hover effect to the active link */
+#navbarSupportedContent1 ul li.active a:hover {
+  color: #00E676;
+  transition: color 0.5s;
+}
+
 /* Add hover effect to the logo */
 .navbar-logo:hover {
   color: #00E676;
@@ -92,6 +151,26 @@
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
+}
+h2.nav-link {
+  /* Common styling for the navbar logo, nav links, and button */
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 3.2vw; /* Using 'vw' units for responsive font size */
+  display: block;
+  padding: 1vw 1vw; /* Using 'vw' units for responsive padding */
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+  cursor: pointer;
+}
+
+/* Add hover effect to all links and button */
+.navbar-logo:hover,
+.nav-link:hover,
+h2.nav-link:hover {
+  color: #00E676;
+  transition: color 0.5s;
 }
 
 @media(max-width: 991px){
@@ -146,7 +225,21 @@
 
 
 }
+@media(min-width: 991px){
+  .navdisappear{
+    display: none;
+  }
+  #moveleft{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
 @media(max-width: 991px){
+  .mainnavdisappear{
+    display: none;
+  }
   .toggle-button {
     display: flex;
   }
@@ -175,5 +268,19 @@
     color: #00E676;
     transition: color 0.5s;
   }
-}
+  #navbarSupportedContent1 ul li a {
+    padding: 3vw 3vw; /* Adjusted padding for smaller screens using 'vw' units */
+    font-size: 4vw; /* Adjusted font size for smaller screens using 'vw' units */
+  }
 
+  /* Additional styles for the active link and hover effects */
+  #navbarSupportedContent1 ul li.active a {
+    color: #00E676;
+    transition: color 0.5s;
+  }
+
+  #navbarSupportedContent1 ul li a:hover {
+    color: #00E676;
+    transition: color 0.5s;
+  }
+}

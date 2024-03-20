@@ -173,6 +173,10 @@ h2.nav-link:hover {
   transition: color 0.5s;
 }
 
+.changecursor{
+  cursor: pointer;
+}
+
 @media(max-width: 991px){
   .toggle-button {
     display: flex;
